@@ -1,0 +1,27 @@
+{
+    "name": "valu-x-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node --experimental-specifier-resolution=node ./bin/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Den4yk76/valu-x-test.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Den4yk76/valu-x-test/issues"
+    },
+    "homepage": "https://github.com/Den4yk76/valu-x-test#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "morgan": "^1.10.0",
+        "redis": "^4.1.0"
+    }
+}
